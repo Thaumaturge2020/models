@@ -1,0 +1,19 @@
+description: hh YOLOv8n-MK model trained on RM.yaml
+author: hh
+license: GPL-3.0 https://ultralytics.com/license
+version: 8.0.62
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: G
+  1: '1'
+  2: '2'
+  3: '3'
+  4: '4'
+  5: '5'
+  6: O
+  7: B
