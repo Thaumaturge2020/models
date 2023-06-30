@@ -1,10 +1,15 @@
-type = "traditional"
+type = "Trad"
+
+is_trad = true
 
 INPUT_W = 640
 INPUT_H = 640
 
-NUM_CLASSES = 8
-NUM_COLORS = 4
+NUM_CLASSES = 9
+NUM_COLORS = 2
+
+class_names = ["1", "2", "3", "4", "5", "Outpost", "Guard", "Base", "Negative"]
+color_names = ["B", "R", "N", "P"]
 
 mlp_threshold = 0.5
 mlp_path = "models/trad/mlp.onnx"
