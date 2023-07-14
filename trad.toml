@@ -14,19 +14,19 @@ color_names = ["B", "R", "N", "P"]
 mlp_threshold = 0.5
 mlp_path = "models/trad/mlp.onnx"
 mlp_label = "models/trad/label.txt"
-min_lightness = 80.0
+min_lightness = 60.0
 
 [light]
 max_angle = 40.0
 max_ratio = 0.4
-min_ratio = 0.08
+min_ratio = 0.1
 
 [armor]
 max_angle = 35.0
 max_center_ratio = 1.6
 min_center_ratio = 0.4
-min_light_ratio = 0.6
-max_large_center_distance = 5.0
+min_light_ratio = 0.7
+max_large_center_distance = 5.5
 min_large_center_distance = 3.2
 max_small_center_distance = 3.2
 min_small_center_distance =  0.8
