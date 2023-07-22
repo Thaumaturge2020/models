@@ -1,0 +1,21 @@
+type = "V8"
+
+INPUT_W = 640
+INPUT_H = 640
+
+NUM_KPTS = 10
+NUM_CLASSES = 3
+NUM_COLORS = 2
+NUM_TSIZES = 1
+
+BBOX_CONF_THRESH = 0.60
+NMS_THRESH = 0.7
+MERGE_THRESH = 0.8
+
+model_prefix = "models/wind_v8/test711/711"
+
+# for drawing
+point_num = 5
+class_names = ["N", "D", "Y"]
+color_names = ["B", "R"]
+tsize_names = ["", ""] # N/A
