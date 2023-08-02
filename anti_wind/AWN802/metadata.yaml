@@ -1,0 +1,12 @@
+description: hh YOLOv8n-MK_anti-wind model trained on RM_anti-wind.yaml
+author: hh
+license: GPL-3.0 https://ultralytics.com/license
+version: 8.0.62
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: W

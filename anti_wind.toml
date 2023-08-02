@@ -8,11 +8,11 @@ NUM_CLASSES = 1
 NUM_COLORS = 2
 NUM_TSIZES = 1
 
-BBOX_CONF_THRESH = 0.60
+BBOX_CONF_THRESH = 0.30
 NMS_THRESH = 0.7
 MERGE_THRESH = 0.8
 
-model_prefix = "models/anti_wind/暂无"
+model_prefix = "models/anti_wind/AWN802/AWN802"
 
 # for drawing
 point_num = 4
