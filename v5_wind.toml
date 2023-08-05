@@ -16,7 +16,7 @@ anchors = [
     [146.0,217.0, 231.0,300.0, 335.0,433.0],
 ]
 
-model_prefix = "models/wind/sh_from28/sh_from28"
+model_prefix = "models/wind/WN731/WN731_v5"
 
 # for drawing
 point_num = 5

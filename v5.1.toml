@@ -17,7 +17,7 @@ anchors = [
     [146.0,217.0, 231.0,300.0, 335.0,433.0],
 ]
 
-model_prefix = "models/v5.1/v5.1_D419E"
+model_prefix = "models/v5.1/v5.1_D419F"
 
 # for drawing
 point_num = 4
